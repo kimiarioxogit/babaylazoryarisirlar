@@ -5,13 +5,11 @@ body{
 header{
     background-color: skyblue;
     height: 150px;
-    width: 100%;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
     font-size: 30px;
     display: flex;
-    position: fixed;
 }
 header ul{
     list-style: none;
@@ -20,7 +18,7 @@ header ul{
     align-items: center;
     gap: 20px;
 }
-.container{
+header .header-container{
     max-width: 1200px;
     margin: 0 auto;
     width: 100%;
@@ -33,12 +31,13 @@ footer {
   background-color: #222;
   color: #fff;
   padding: 40px 20px;
+  
 }
 
 .footer-container {
   display: flex;
-  justify-content: space-between; /* kolonlar arası boşluk */
-  flex-wrap: wrap;                /* mobilde alt alta geçmesi için */
+  justify-content: space-between; 
+  flex-wrap: wrap;                
   max-width: 1200px;
   margin: 0 auto;
 }
