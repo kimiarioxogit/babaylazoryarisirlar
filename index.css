@@ -4,14 +4,20 @@ body{
 }
 header{
     background-color: skyblue;
-    height: 150px;
+  height: 150px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-size: 30px;
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 100;
     width: 100%;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    font-size: 30px;
     display: flex;
-    position: fixed;
+    align-items: center;
+    justify-content: space-between;
 }
 header ul{
     list-style: none;
