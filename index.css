@@ -33,9 +33,15 @@ footer {
   background-color: #222;
   color: #fff;
   padding: 40px 20px;
-  height: 1000px;
 }
 
+.footer-container {
+  display: flex;
+  justify-content: space-between; /* kolonlar arası boşluk */
+  flex-wrap: wrap;                /* mobilde alt alta geçmesi için */
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
 .footer-column {
   flex: 1;            /* eşit genişlik */
@@ -75,4 +81,28 @@ footer {
   font-size: 14px;
   border-top: 1px solid #444;
   padding-top: 10px;
+}
+.icerik{
+    height: 400px;
+    background-color: #db4e4e;
+    padding: 10px;
+}
+.yazi{
+    color: #fff;
+    text-align: center;
+    margin: 100px;
+
+}
+.sol{
+    background-color: aqua;
+    height: 420px;
+    width: 100px;
+    margin-top: -420px;
+}
+.sağ{
+    background-color: aqua;
+    height: 420px;
+    width: 100px;
+    margin-top: -420px;
+    float: right;
 }
