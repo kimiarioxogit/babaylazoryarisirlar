@@ -5,11 +5,13 @@ body{
 header{
     background-color: skyblue;
     height: 150px;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
     font-size: 30px;
     display: flex;
+    position: fixed;
 }
 header ul{
     list-style: none;
@@ -31,6 +33,7 @@ footer {
   background-color: #222;
   color: #fff;
   padding: 40px 20px;
+  height: 1000px;
 }
 
 
