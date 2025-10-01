@@ -90,13 +90,18 @@ footer {
     color: #fff;
     text-align: center;
     margin: 100px;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 
 }
 .sol{
     background-color: aqua;
     height: 420px;
     width: 100px;
-    margin-top: -420px;
+    margin-top: -440px;
+
+  
+    
 }
 .sağ{
     background-color: aqua;
@@ -104,4 +109,10 @@ footer {
     width: 100px;
     margin-top: -420px;
     float: right;
+}
+.yazi2{
+  text-align: center
+}
+.yazi3{
+  text-align: center;
 }
