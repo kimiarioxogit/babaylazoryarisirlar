@@ -31,12 +31,13 @@ footer {
   background-color: #222;
   color: #fff;
   padding: 40px 20px;
+  
 }
 
 .footer-container {
   display: flex;
-  justify-content: space-between; /* kolonlar arası boşluk */
-  flex-wrap: wrap;                /* mobilde alt alta geçmesi için */
+  justify-content: space-between; 
+  flex-wrap: wrap;                
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -83,8 +84,17 @@ footer {
 .icerik{
     height: 400px;
     background-color: #db4e4e;
+    padding: 10px;
 }
 .yazi{
     color: #fff;
     text-align: center;
+    margin: 100px;
+
+}
+.sol{
+    background-color: aqua;
+    height: 420px;
+    width: 100px;
+    margin-top: -420px;
 }
