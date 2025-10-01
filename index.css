@@ -98,3 +98,10 @@ footer {
     width: 100px;
     margin-top: -420px;
 }
+.sağ{
+    background-color: aqua;
+    height: 420px;
+    width: 100px;
+    margin-top: -420px;
+    float: right;
+}
